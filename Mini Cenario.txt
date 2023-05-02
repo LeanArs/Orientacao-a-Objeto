@@ -1,0 +1,13 @@
+Minicenário
+
+João é dono de um curso para concursos.
+Ele deseja expandir sua empresa criando uma aplicação desktop onde seja possível responder questões de concursos diversos.
+Para isso, um usuário será necessário contendo informações básicas como nome, email e senha. E um usuário poderá ser um estudante ou um administrador. Um estudante além das informações básicas terá matrícula em seu cadastro, e um administrador terá cargo.
+
+Um administrador será capaz de criar, editar e excluir questão. Além de adicionar as questões criadas à uma lista.
+E um estudante poderá somente responder as questões.
+No entanto, ambos usuários poderão listar todas as questões e filtrar a questão de acordo com a matéria.
+
+Quanto as características das questões, todas elas haverão o nome do concurso de onde foi retirada, o ano em que a questão foi aplicada, a matéria da questão, o enunciado, os itens A, B, C e D, juntamente com o gabarito.
+
+
