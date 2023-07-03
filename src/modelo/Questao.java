@@ -3,29 +3,28 @@ package modelo;
 public class Questao {
 	
 	//Attributes
-	private String nomeConcurso;
-	private int anoAplicacao;
-	private String materia;
 	private String enunciado;
 	private String itemA;
 	private String itemB;
 	private String itemC;
 	private String itemD;
 	private String gabarito;
+	private String materia;
+	private String nomeConcurso;
+	private int anoAplicacao;
 	
 	//Constructor
-	public Questao(String nomeConcurso, int anoAplicacao, String materia, String enunciado, String itemA, String itemB,
-			String itemC, String itemD, String gabarito) {
+	public Questao(String enunciado, String itemA, String itemB, String itemC, String itemD, String gabarito, String materia, String nomeConcurso, int anoAplicacao) {
 		super();
-		this.nomeConcurso = nomeConcurso;
-		this.anoAplicacao = anoAplicacao;
-		this.materia = materia;
 		this.enunciado = enunciado;
 		this.itemA = itemA;
 		this.itemB = itemB;
 		this.itemC = itemC;
 		this.itemD = itemD;
 		this.gabarito = gabarito;
+		this.materia = materia;
+		this.nomeConcurso = nomeConcurso;
+		this.anoAplicacao = anoAplicacao;
 	}
 	
 	//Gets e Sets
@@ -100,4 +99,5 @@ public class Questao {
 				+ ", enunciado=" + enunciado + ", itemA=" + itemA + ", itemB=" + itemB + ", itemC=" + itemC + ", itemD="
 				+ itemD + ", gabarito=" + gabarito + "]";
 	}
+	
 }

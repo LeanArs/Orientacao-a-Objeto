@@ -24,13 +24,7 @@ public class Estudante extends Usuario {
 	//Methods
 	@Override
 	public String toString() {
-		return "Estudante [nome=" + nome + ", email=" + email + ", senha =" + senha + ", matricula=" + matricula + "]";
+		return "Estudante [nome=" + nome + ", email=" + email + ", senha=" + senha + ", matricula=" + matricula + "]";
 	}
-	
-	public boolean responderQuestao() {
-		return false;
-	}
-
-	
 	
 }

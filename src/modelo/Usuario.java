@@ -43,7 +43,4 @@ public abstract class Usuario {
 		return "Usuario [nome=" + nome + ", email=" + email + ", senha=" + senha + "]";
 	}
 	
-	public void filtrarQuestoes(Questao materia) {
-		
-	}
 }
